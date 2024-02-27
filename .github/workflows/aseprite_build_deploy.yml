@@ -67,7 +67,7 @@ jobs:
     runs-on: windows-latest
     strategy:
        matrix:
-         os: [windows-latest, ubuntu-latest, macOS-latest]
+         os: [windows-latest]
        fail-fast: false
     steps:
       - name: (Windows) Install dependencies
